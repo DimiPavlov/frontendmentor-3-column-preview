@@ -1,0 +1,17 @@
+.button {
+  padding: 15px 35px;
+  background: hsl(0, 0%, 95%);
+  margin-top: 60px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  background: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+}

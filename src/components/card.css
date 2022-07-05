@@ -1,0 +1,25 @@
+.card-container {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+}
+
+h1,
+img {
+  display: flex;
+  align-self: flex-start;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0px 30px;
+  font-size: 34px;
+}
+
+p {
+  line-height: 24px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0px 30px;
+}

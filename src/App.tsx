@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Card } from "./components/Card";
+import Sedan from "./images/icon-sedans.svg";
+import Luxury from "./images/icon-luxury.svg";
+import Suvs from "./images/icon-suvs.svg";
 
-function App() {
+function App(): JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <div className="app">
+        <Card
+          className="first"
+          image={Sedan}
+          title="Sedans"
+          text="Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip."
+        />
+
+        <Card
+          className="second"
+          image={Suvs}
+          title="SUVs"
+          text="Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures."
+        />
+        <Card
+          className="third"
+          image={Luxury}
+          title="Luxury"
+          text="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style."
+        />
+      </div>
     </div>
   );
 }
