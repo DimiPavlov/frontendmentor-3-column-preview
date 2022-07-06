@@ -18,14 +18,25 @@
   background-color: var(--orange);
 }
 
+.card-container:first-child button {
+  color: var(--orange);
+}
+
 .card-container:nth-child(2) {
   grid-area: second;
   background-color: var(--teal);
+}
+.card-container:nth-child(2) button {
+  color: var(--teal);
 }
 
 .card-container:last-child {
   grid-area: third;
   background-color: var(--green);
+}
+
+.card-container:last-child button {
+  color: var(--green);
 }
 @media (min-width: 400px) {
   .app {

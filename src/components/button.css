@@ -12,6 +12,6 @@
 .button:hover {
   cursor: pointer;
   border: 2px solid hsla(0, 0%, 100%, 0.75);
-  background: transparent;
-  color: hsla(0, 0%, 100%, 0.75);
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.75) !important;
 }
